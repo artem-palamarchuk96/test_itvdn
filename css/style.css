@@ -1,0 +1,84 @@
+body {
+	outline: none;
+	padding: 20px;
+}
+
+.container {
+	min-width: 960px;
+}
+
+#add-persons {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border: 1px solid #666;
+}
+
+table tr td {
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+table tr th {
+	padding: 10px;
+}
+
+.tables {
+	margin-bottom: 10px;
+}
+
+.table-outer {
+	width: 100%;
+}
+
+.text-input {
+	width: 80%;
+	height: 40px;
+	padding-left: 5px;
+	font-size: 1.2em;
+}
+
+.submit {
+	width: 25%;
+	height: 40px;
+	border: 0;
+	font-size: 1.5em;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px;
+	float: right;
+	padding: 1% 1%;
+}
+
+.fieldset-books {
+	margin-top: 20px;
+}
+
+.fieldset-books a {
+	float: right;
+}
+
+.table-out-btns {
+	float: right;
+	height: 25px;
+	padding: 0 25px;
+	margin-right: 10px;
+}
+
+#editdelete {
+	width: 10%;
+}
+
+#name-outer {
+	width: 15%;
+}
+
+#surname-outer,
+#patronymic-outer,
+#books-outer {
+	width: 25%;
+}
+
+

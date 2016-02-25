@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js</title>
+
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	
+
+
+</head>
+<body>
+
+	<!--[if it IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/html5shiv-printshiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+<div class="fluid-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				
+
+
+<form action="" id="add-persons" method="post" onsubmit="addBooks(); return false;">
+		<fieldset class="fieldset-person">
+			<legend>Добавить автора</legend>
+			<table class="table-person">
+				<tr>
+					<th>Фамилия *</th>
+					<td><input class="text-input" type="text" id="name" value="Артем"></td>
+				</tr>
+				<tr>
+					<th>Имя *</th>
+					<td><input class="text-input" type="text" id="surname" value="Паламарчук"></td>
+				</tr>
+				<tr>
+					<th>Отчество *</th>
+					<td><input class="text-input" type="text" id="patronymic" value="Владимирович"></td>
+				</tr>
+			</table>
+		</fieldset>
+		
+
+		<fieldset class="fieldset-books">
+			<legend>Книги <a href="#" id="add-books">Добавить книгу</a></legend>
+			<table id="table" class="tables">
+					<tr>
+						<th>Название *</th>
+						<td><input id="bookTitleId" class="books-text" type="text" value="Книга" required></td>
+					</tr>
+					<tr>
+						<th>Жанр *</th>
+						<td><input id="bookGenreId" class="books-text" type="text" value="Жанр" required></td>
+					</tr>
+					<tr>
+						<th>Кол-во страниц *</th>
+						<td><input id="bookPagesId" class="books-text" type="text" value="Кол-во страниц" required></td>
+					</tr>
+			</table>
+		</fieldset>
+
+		<fieldset>
+			<input type="button" id="submit" class="btn btn-success submit" value="Сохранить">
+		</fieldset>
+	</form>
+	
+
+
+
+
+
+
+			</div>
+
+
+<div class="col-xs-6">
+	<fieldset>
+		<legend>Таблица
+			<input type="button" id="reset" class="btn btn-danger table-out-btns" value="Очистить LS">
+			<input type="button" id="download" class="btn btn-info table-out-btns" value="Загрузить из LS">
+		</legend>
+		<table id="table-outer">
+			<thead>
+				<tr>
+					<th>Edit</th>
+					<th>Фамилия</th>
+					<th>Имя</th>
+					<th>Отчество</th>
+					<th>Книга</th>
+				</tr>
+			</thead>
+			<tbody id="table-body">
+
+			</tbody>
+		</table>
+	</fieldset>
+
+</div>
+
+
+		</div>
+	</div>
+</div>
+	
+
+
+
+
+			<script src="js/jquery-1.11.3.min.js"></script>
+			<script src="bootstrap/bootstrap.min.js"></script>
+			<script src="js/localstoragedb.min.js"></script>
+
+			<script src="js/main.js"></script>
+</body>
+</html>
